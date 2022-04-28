@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--<fragment-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_weight="1"-->
+<!--    android:name="com.example.wscube_fragment.AFragment"-->
+<!--    android:id="@+id/frag1"></fragment>-->
+
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:name="com.example.wscube_fragment.BFragment"-->
+<!--        android:id="@+id/frag2"></fragment>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frag A"
+            android:layout_weight="1"
+            android:id="@+id/btnFragA"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frag B"
+            android:layout_weight="1"
+            android:id="@+id/btnFragB"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frag D"
+            android:layout_weight="1"
+            android:id="@+id/btnFragC"></Button>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container1"></FrameLayout>
+
+</LinearLayout>
